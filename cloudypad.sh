@@ -12,7 +12,7 @@ if [ -n "$CLOUDYPAD_CLI_LAUNCHER_DEBUG" ]; then
 fi
 
 CLOUDYPAD_VERSION=0.12.0
-CLOUDYPAD_IMAGE="${CLOUDYPAD_IMAGE:-"ghcr.io/pierrebeucher/cloudypad:$CLOUDYPAD_VERSION"}"
+CLOUDYPAD_IMAGE="${CLOUDYPAD_IMAGE:-"ghcr.io/keotl/cloudypad:$CLOUDYPAD_VERSION"}"
 CLOUDYPAD_TARGET_IMAGE="cloudypad/local-runner:local"
 
 # Hidden command used during installation to setup Docker image locally
