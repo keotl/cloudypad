@@ -47,7 +47,7 @@ send_analytics_event "cli_install_start"
 
 echo "Installing Cloudy Pad version $CLOUDYPAD_SCRIPT_REF"
 
-CLOUDYPAD_SCRIPT_URL="https://raw.githubusercontent.com/PierreBeucher/cloudypad/$CLOUDYPAD_SCRIPT_REF/cloudypad.sh"
+CLOUDYPAD_SCRIPT_URL="https://raw.githubusercontent.com/keotl/cloudypad/$CLOUDYPAD_SCRIPT_REF/cloudypad.sh"
 # ===
 
 # Constants, do not override
